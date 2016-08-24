@@ -64,7 +64,13 @@ def find_my_song(query_name):
 
 		songs = body[i]
 
-		track_id = (songs["track"]["track_id"])
+		track_id = (songs["track"]["track_id"]) 
+		
+		'''
+		This is the Unique Track Id for every particular song, It will
+		Be necessary when searching for a songs lyrics.
+
+		'''
 
 		track_name = (songs["track"]["track_name"])
 
