@@ -7,10 +7,10 @@ class Finder(cmd.Cmd):
     
     def do_find(self, song):
         '''
-        The Command View enables the user to view a number of
+        The Command find enables the user to view a number of
         songs, based on the search parameters he/she inputs.
-        It takes(Artist_Name, Track_Name or Part of the Lyrics).
-        Example >>> view cheap thrills by sia
+        It takes(Artist_Name, Track_Name, Part of the Lyrics) or all.
+        Example >>> find cheap thrills by sia
 
         '''
         if(song == ""):
